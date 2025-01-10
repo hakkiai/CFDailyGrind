@@ -1,0 +1,449 @@
+UNIT-1
+Introduction to Machine Learning
+-> Def1
+-> Def2
+-> Definition of Learning
+    EX...
+
+
+
+Artificial Learning(A.I)
+-> How does AI work
+
+-> Advantages and Disadvantages of AI
+  Advantages
+    1) Reduced time for data heavy tasks
+    2) saves labour and increases productivity
+    3) Delivers consistent results
+    4) can improve customer satisfaction
+    5) AI-powered virtual agents are always available
+  Disadvantages 
+    1) Expensive
+    2) Requires deep techinical Expertise
+    3) Limited supply of qualified workers to build AI tools
+    4) Reflects the biases of its training data at scale
+    5) Lacks ability to generalise from one task to another
+    6) Elimanates human jobs, increasing unemployment rates
+
+-> Types of Artificial Intelligence
+   1) Type 1
+        - Weak AI or Narrow AI
+        - General AI
+        - Super AI or Strong AI
+   2) Type 2
+          - Reactive Machines
+          - Limited Memory
+          - Theory of Mind
+          - Self-Awareness
+
+
+
+Deep Learning
+  DEF...
+-> Deep Learning Application
+    1) Virtual Assistants
+    2) Chatbots
+    3) Healthcare
+    4) Entertainment
+    5) Image coloring
+    6) Robotics
+    7) Self Driving cars
+    8) Natural Language Processing
+    9) Visual Recognition
+    10) Fraud Detection
+
+
+
+
+Types of Machine Learning Systems #midQuestion 
+>> supervised Learning >> Unsupervised Learning >> Reinforcement Learning
+
+-> Supervised Learning #midQuestion 
+   -DEF...
+   -Algorithm
+       *Linear regresssion* #midQuestion 
+	   *Logistic Regression* #midQuestion 
+	   *Support vector Machines*
+	   *K Nearest Neighbour*
+	   *Decision tree*
+	   *Random Forest*
+	   *Naive bayes*
+   -Working
+   -Application 
+-> Unsupervised Learning #midQuestion 
+    -DEF....
+    -Algorithm
+        *K-Means Clustering*
+        *Hierarchical Clustering*
+        *DBSCAN*
+        *Principal Component Analysis*
+     -working
+     -Applications  
+-> Reinforcement Learning #midQuestion 
+   -DEF....
+   -Algorithm
+         *Q-Learning*
+         *Sarsa*
+         *Monte carlo*
+         *Deep Q Network*
+   -working
+   -Application  
+
+
+Main Challenges of Machine learning #midQuestion 
+1) Poor Quality of Data
+2) Underfitting of Traning data
+3) Overfitting of traning data
+
+
+
+Training & Test loss #midQuestion
+  -> Squared Loss
+  -> Mean Square Error(MSE)
+
+
+
+_Basic satistics :
+ mean/Average
+ variace
+ standared deviation
+ coverience
+ corelation_
+
+
+
+Tradeoffs #midQuestion 
+-> Bias
+-> Variance
+-> Bias-Variance Tradeoffs
+
+
+Mid Question
+1)Differences between Supervised and Unsupervised learning?
+2)Explain about Linear Regression in supervised learning?
+3)What is Training and test loss, Explain Trade-offs in statistical learning?
+4)Differentiate between linear regression and logistic regression.
+5)Write about the Main issues in Machine learning?
+6)Explain about different Machine learning systems?
+
+
+
+Answers
+1)Differences between Supervised and Unsupervised learning?
+   In the realm of machine learning, two primary paradigms reign supreme: supervised and unsupervised learning. While both seek to extract knowledge from data, their approaches and applications differ fundamentally.
+
+ Supervised Learning
+ 1) supervised learning is a powerful technique within the realm of machine learning. It involves training an algorithm on labeled data, where each data point has a pre-defined output or category, and then using this knowledge to make predictions for unseen data.
+
+
+
+
+
+
+[[Machine Learning/UNIT-2]]
+
+
+
+
+
+
+
+UNIT-2
+Distance Based Method #sem 
+ -> Euclidian Distance
+ -> Manhattan Distance
+ -> Minkowski Distance
+
+
+
+
+Nearest Neighbours (KNN) #sem 
+-> The impact of selecting a smaller or larger K value on the model
+     - larger K value
+     - smaller k value
+ -> How does KNN work for 'Classification' and 'Regression' problem statement?
+     -Classification
+       [Real World Example]
+     -Regression
+       [Real World Example]
+-> Impact of Imbalance dataset and Outliers on KNN
+     -Imbalenced dataset
+     -Outliers
+-> Importance of scaling down the numeric variables to the same level
+     -Magnitude
+     -Unit
+
+
+
+Decision Trees #sem 
+ The Concept of Entropy and information gain in Decision Tree Learning
+ -> Information Gain
+ -> Decision tree Construction using Entropy and Information gain
+    -> ID3 Algorithm
+       [Tennis Dataset]
+ -> Decision Tree to Decision Rules/ Rule Extraction from Tree/ Making Predictions
+ -> Training and visualizing a Decision Tree
+ -> Decision Tree for Regression
+ -> The CART Traning ALgorithm(uses GINI Index)
+      ->Classification and Regression Tree
+      ->Adv of CART
+      ->DISadv of CART
+      ->App of CART
+
+
+NAIVE BAYES
+ -> Bayes Theorem #sem
+    ->Formula
+    -> Working
+    -> Problem [Player should play or not?]
+    -> Adv and Disadv and Application
+-> Types of Naive Bayes
+    -> Gaussian
+    -> Multinomial
+    -> Bernoulli
+
+
+
+
+Part - 2 
+
+Linear Models #sem 
+-> Linear Regression 
+   -> Simple Linear Regression
+       -> Steps to Implement it in Python
+   -> Multiple Linear Regression
+      -> Steps to Implement it in Python
+
+-> Logistic Linear Regression #sem 
+   -> LOgistic Regression ALgorithm
+
+-> GLM (Generalized Linear Models) #sem 
+-> Support Vector Machines #sem 
+
+
+
+
+Part - 3
+Binary Classification
+-> Multiclass and Binary and (VS)
+-> MNIST(Modified National Institute of Strandard and Technology database) #sem 
+-> Ranking #sem 
+
+
+
+
+
+
+Additional Topics Not INcluded in the SYllabus But asked in the Examm
+-> ANOVA
+-> Sigmoid Function
+#sem 
+
+
+[[Machine Learning/UNIT-3|UNIT-3]]
+
+
+
+
+
+
+
+
+
+UNIT-3
+Ensemble Learning and Random Forest
+
+-> Ensemble Learning
+   -> Single Weak Learner
+   -> Main Challenges for Developing Encemble Models
+   -> Methods for Independently Constructing Ensembles
+   -> Methods for Coordinated COnstruction of Ensembles
+      -> Boosting #sem
+      -> Stacking
+   -> Algorithms to Combine these weak Models
+       -> Bagging
+       -> Boosting #sem
+       -> Stacking
+
+-> Voting Classifier #sem 
+   -> Hard Voting
+   -> Soft Voting
+
+-> Bagging and Pasting #sem
+   -> BootStrapping
+   -> Out-of-Bag Scoring #sem 
+
+
+-> Random Forest [Algo] #sem
+  -> Working on Random Forest
+    -> Bagging #sem
+    -> Boosting #sem
+  -> Random Forest ALgorithm Example
+  -> Important Features of Random Forest
+  -> Advantages and DisAdvantages of Random Forest
+  -> Difference between Decision Tree and Random Forest
+
+
+-> Boosting #sem
+  -> AdaBoost #sem 
+     -> Algorithm
+        -> Explanation
+   -> SImilarities Between bagging and Boosting
+   -> Differences Between bagging and Boosting
+
+-> Stacking ( Stacked Generalization) #sem
+   [Diagram]
+
+
+
+Part - 2
+
+Support vector Machines #sem
+-> Linear SVM Classification #sem
+   [4-Scenario]
+-> Non-Linear SVM Classification #sem
+   -> To add features manually to the have a HyperPlane, we use the Kernel Trick #sem
+
+-> SVM Regression #sem
+   -> Key Parameters
+      -> HyperPlane
+      -> Kernel
+      -> Boundary Lines
+-> The IDea Behind Support VEctor Machines
+
+
+-> Naive Bayes [Algo] #sem 
+  -> Theorem, FOrmula, Problem, Adv & disAdv, App;
+
+
+
+
+
+Additional Topics Not INcluded in the SYllabus But asked in the Examm
+-> Describe Gaussian RBF kernel in SVM
+-> Discuss about Extra trees. Are Extra-Trees slower or faster than regular Random Forests? Explain.
+-> Explain about Gradient Boosting technique.
+-> What is Kernel trick? Describe polynomial kernel function.
+
+
+
+[[UNIT-4]]
+
+
+
+
+
+
+UNIT-4
+
+==Unsupervised Learning Techniques:== 
+1.Clustering #midQuestion 
+    -1EX. 2Diagrams and Six Applications #midQuestion 
+    
+2.K-Means #midQuestion 
+     -One Example Problem(11 steps) + One Algorithm with code #midQuestion 
+     
+3.Limits of K-Means #midQuestion 
+     -Five disadvantages
+     
+4.Using Clustering for Image Segmentation
+     -Theory and program
+     
+5.Using Clustering for Preprocessing
+     -Theory and Program
+     
+6.Using Clustering for Semi-Supervised Learning
+     -Theory and Program
+     
+7.DBSCAN #midQuestion 
+     -Theory. GraphDiagram and program
+     
+8.Gaussian Mixtures
+     -Theory, GraphDiagram and program
+
+
+
+==Dimensionality Reduction:== 
+1.The Curse of Dimensionality #midQuestion 
+    -Theory
+    -Solution to Curse of Dimentionality(Forward-Feature Selection & PCA/t-SNE)
+
+2.Main Approaches for Dimensionality Reduction #midQuestion 
+     -Two methods(Projection and Manifold Learning)
+
+3.PCA
+    -ADV and disADV of PCA
+    -Steps for PCA (5 steps)
+
+4.Using Scikit-Learn
+    -Small Program with Theory
+
+5.Randomized PCA #midQuestion 
+    -Theory with Program
+    
+6.Kernel PCA. #midQuestion 
+     -Theory with Program
+
+
+
+# Mid Questions
+1.Define Clustering and explain about K-Means Clustering algorithm?
+2.Explain DBSCAN Clustering algorithm?
+3.Explain about Dimensionality Reduction techniques?
+4.Explain about Randomized PCA and Kernel PCA?
+5.Explain different areas where K-means clustering is been used and write the limitations of k-means clustering?
+6.Apply K-means clustering algorithm technique for given data points to for three clusters
+A1(2,6) A2(3,7) A3(1,7) A4(2,8) A5(3,6) A6(1,2) A7(3,9) A8(9,4)
+
+ [[UNIT-5]]
+
+
+
+
+
+
+
+UNIT-5
+==1.Neural Networks and Deep Learning:==
+    1.Neurons and biological Motivation
+       -Artifical Neural Network #midQuestion 
+       -Biological Motivation
+    2.Structure of Neural Network/Linear threshold units
+       -Artificial Neurons #midQuestion 
+    3.Preceptron #midQuestion 
+       -The Preceptron ALgorithm (4 steps) #midQuestion 
+      3.1-Representational limitations and gradient descent Traning
+           -Derivation of Delta rule
+           -Gradient Descent(traning_example)
+      3.2-Multilayer network and backpropogation
+           -Back Propogation Algorithm
+           -Termination Criteria for Multi-layer network
+      
+
+==2.Introduction to Artificial Neural Networks with Keras==
+Implementing MLPs with Keras #midQuestion 
+    -Sequential API (Theory and CODE)
+    -Funtional API  (Theory and CODE)
+    -Subclassing API the tf.keras.model.class (Theory and CODE)
+
+==3.Installing TensorFlow 2==  #midQuestion 
+
+==4.Loading and Preprocessing Data with TensorFlow.== #midQuestion 
+-Methods
+   -Loading data
+   -Data Augmentation
+   -Normalization
+   -Batching
+   -Shuffling
+   -Caching
+
+
+
+
+# Mid Questions
+1.Explain about implementation of MLP’s with Keras?
+2.Explain installation of Tensorflow-2?
+3.Define the terms of Artificial neural networks?
+4.Explain loading and pre-processing of Data with tensorflow-2?
+5.What is artificial Intelligence Explain about neurons and perceptron’s?
+6.Define perceptron and explain perceptron algorithm with example?
