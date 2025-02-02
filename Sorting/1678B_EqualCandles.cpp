@@ -17,11 +17,6 @@ int main(){
 
         int min = *min_element(a.begin(), a.end());
 
-        for(int i=0; i<n; i++){
-            a[i] -= min;
-
-        }
-
        long long sum = 0;
         for(int i=0; i<n; i++){
             sum += (a[i] - min);
